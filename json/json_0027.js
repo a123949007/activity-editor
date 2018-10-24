@@ -1,0 +1,76 @@
+{
+  "name":"转盘",
+  "tid":"0027",
+  "title":"幸运大转盘",
+  "backgroundColor":"#ea6a22",
+  "isBack":true,
+  "components":[
+      {
+          "name":"background",
+          "src":"./components/common/Background.vue",
+          "attr":{
+              "iurl":"https://mejoy-static.91doujin.com/activity/images/t_0011/background.png"
+          }
+      },
+      {
+          "name":"times",
+          "src":"./components/common/Times.vue",
+          "attr":{
+              "top":"9.7rem",
+              "fontSize":"0.3rem",
+              "color":"#fff",
+              "borderColor":"#fff"
+          }
+      },
+      {
+          "name":"turntableAction",
+          "src":"./components/action/TurntableAction.vue",
+          "attr":{
+              "iurl1":"https://mejoy-static.91doujin.com//activity/images/t_0011/turntable.png",
+              "iurl2":"",
+              "iurl3":"https://mejoy-static.91doujin.com//activity/images/t_0011/button.png",
+              "iurl4":"https://mejoy-static.91doujin.com//activity/images/t_0011/button2.png",
+              "top":"3.6rem",
+              "widthTab":"6rem",
+              "widthBtn":"2.12rem",
+              "topBtn":"1.9rem"
+          }
+      },
+      {
+          "name":"pop",
+          "id":"0001",
+          "src":"./components/common/popups/pop1/Pop1.vue"
+      },
+      {
+          "name":"next",
+          "src":"./components/common/next/Next.vue"
+      },
+      {
+          "name":"record",
+          "src":"./components/common/Record.vue",
+          "attr":{
+              "iurl":"https://mejoy-static.91doujin.com/activity/images/t_0010/record.png",
+              "top":"0rem",
+              "right":"0rem",
+              "width":"1.2rem"
+          }
+      },
+      {
+          "name":"list",
+          "src":"./components/common/List.vue",
+          "attr":{
+              "iurl":"https://mejoy-static.91doujin.com/activity/images/t_0011/prize.png",
+              "top":"10.5rem",
+              "width":"9rem"
+          }
+      },
+      {
+        "name": "balloon",
+        "src": "./components/common/Balloon.vue",
+        "attr": {
+          "iurl": "https://mejoy-static.91doujin.com/activity/images/balloon0001/balloon.png",
+          "width": "1.4rem"
+        }
+      }
+  ]
+}
